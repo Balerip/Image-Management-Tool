@@ -73,7 +73,7 @@ pom.xml	Maven configuration file
 
 📸 Preview
 (Add a few screenshot previews once uploaded)
-![Main UI](TestScreenshots/main_ui.png)
+![Main UI](TestScreenshots/s1.png)
 
 ![Image Conversion](TestScreenshots/conversion_screen.png)
 
