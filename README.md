@@ -72,10 +72,10 @@ pom.xml	Maven configuration file
 
 
 📸 Preview
+<img src="TestScreenshots/s1.png" alt="Main UI" width="400"/>
 
-![Main UI](<img src="TestScreenshots/s1.png"alt="Main UI" width="400"/>)
+<img src="TestScreenshots/conversion_screen.png" alt="Image Conversion" width="400"/>
 
-![Image Conversion](<img src="TestScreenshots/conversion_screen.png"alt="Main UI" width="400"/>)
 
 
 🧠 Tech Stack
