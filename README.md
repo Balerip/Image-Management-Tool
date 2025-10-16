@@ -72,10 +72,10 @@ pom.xml	Maven configuration file
 
 
 📸 Preview
-(Add a few screenshot previews once uploaded)
-![Main UI](TestScreenshots/s1.png)
 
-![Image Conversion](TestScreenshots/conversion_screen.png)
+![Main UI](<img src="TestScreenshots/s1.png"alt="Main UI" width="400"/>)
+
+![Image Conversion](<img src="TestScreenshots/conversion_screen.png"alt="Main UI" width="400"/>)
 
 
 🧠 Tech Stack
