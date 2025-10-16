@@ -1,71 +1,93 @@
-Image Management Tool
-A JavaFX-powered desktop application for intuitive image organization, conversion, and property inspection.
+# 🖼️ Image Management Tool
 
-Features
-Modern JavaFX GUI
+A **JavaFX-powered desktop application** that simplifies image organization, conversion, and metadata inspection — built with strong Object-Oriented principles and clean UI design.
 
-Upload image files from your device
+---
 
-Display image thumbnails (100x100 px) for quick previews
+## ✨ Overview
 
-Show image properties: height, width, camera info, location, and more
+This project demonstrates end-to-end desktop development with **JavaFX**, **ImageIO**, and optional **ImageMagick/JMagick** integration.  
+It focuses on **intuitive image handling**, **efficient conversion**, and **clear code structure** backed by **design patterns**.
 
-Image Processing & Conversion
+---
 
-Convert images to multiple formats using Image IO/ImageMagick/JMagick
+## 🚀 Features
 
-Download converted images directly from the application
+### 🧭 Modern JavaFX GUI
+- Upload image files from your local system  
+- View 100×100 pixel thumbnails for quick previews  
+- Display key image properties (height, width, camera info, GPS metadata, etc.)
 
-Design Patterns
+### ⚙️ Image Processing & Conversion
+- Convert images between multiple formats (JPEG, PNG, BMP, etc.)  
+- Integration-ready with ImageIO / ImageMagick / JMagick  
+- Download converted images directly within the app  
 
-Implements at least one design pattern for maintainability (details in source)
+### 🧩 Design Patterns
+- Implements at least one **design pattern** for modular and maintainable architecture  
+- Encourages **separation of concerns** and clean component interaction  
 
-Robust Object-Oriented Design
+### 🧱 Robust Object-Oriented Design
+- Uses **inheritance**, **encapsulation**, and **interfaces** effectively  
+- Clearly documented and easy to extend  
 
-Uses inheritance, encapsulation, and interfaces throughout the codebase
+### 🖼️ Screenshot Gallery
+- Contains test screenshots showing major features and scenarios  
 
-Screenshot Gallery
+### 🧯 Exception Handling & Documentation
+- Graceful error handling  
+- Clear inline comments and JavaDoc documentation  
 
-Includes test screenshots showing app features and test scenarios
+### 🎨 (Optional) Filters & Effects
+- Apply simple effects like grayscale, tints, or color filters *(if enabled)*  
 
-Exception Handling & Code Comments
+---
 
-Handles errors gracefully and features clear inline documentation
+## ⚡ Installation
 
-(Optional) Filters & Effects
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/Image-Management-Tool.git
+2. Install Java (JDK 8+) and Maven
+3. Build the project
+4. mvn clean install
+5. Run the application
+   mvn javafx:run
 
-Apply color tints, black-and-white, and other filters (if enabled)
 
-Installation
-Clone the repository
+💡 Usage
+Launch the app and upload one or more images.
+View image thumbnails and inspect metadata properties.
+Choose the desired output format for conversion.
+Optionally apply filters or effects.
+Download processed images to your machine.
 
-bash
-git clone https://github.com/yourusername/Image-Management-Tool.git
-Install Java (JDK 8+) and Maven
 
-Build the project
+🧭 Project Structure
+Path	Description
+src/main/java	Main Java source code
+TestScreenshots/	App and test screenshots
+ClassDiagram.png	UML class diagram visualizing architecture
+pom.xml	Maven configuration file
 
-bash
-mvn clean install
-Run the application
 
-bash
-mvn javafx:run
-Usage
-Launch and follow on-screen prompts to upload images.
+📸 Preview
+(Add a few screenshot previews once uploaded)
+![Main UI](TestScreenshots/main_ui.png)
 
-View thumbnails and inspect image properties.
+![Image Conversion](TestScreenshots/conversion_screen.png)
 
-Choose formats for conversion and apply filters if available.
 
-Download processed images to your local machine.
+🧠 Tech Stack
+JavaFX — Modern desktop UI framework
+ImageIO / ImageMagick / JMagick — Image manipulation and format conversion
+Maven — Project build and dependency management
+OOP Design — Inheritance, encapsulation, and interfaces
 
-Project Structure
-src/main/java — Main Java source code
 
-TestScreenshots/ — Screenshots of test scenarios and results
 
-ClassDiagram.png — Class diagram visualizing architecture
-
-pom.xml — Maven configuration file
-
+🪄 Highlights
+🎨 Intuitive interface with real-time image previews
+🧩 Design pattern implementation for maintainability
+🧱 Scalable object-oriented architecture
+💡 Demonstrates strong JavaFX and Java core concepts
